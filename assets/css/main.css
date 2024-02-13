@@ -3391,3 +3391,34 @@ ol li {
 		font-size: 1.25em;
 	}
 }
+
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+}
+th {
+	background-color: #f2f2f2;
+}
+
+.members img {
+	width: 200px; /* 幅を150ピクセルに設定 */
+	height: auto; /* 高さを自動調整でアスペクト比を維持 */
+}
+
+.members td {
+	vertical-align: middle; /* テキストを垂直方向に中央揃え */
+  }
+
+.members table, .members th, .members td {
+	border: none; /* ボーダーを非表示に設定 */
+  }
+
+.members table tr td:nth-child(2) {
+	font-weight: bold;
+  }
