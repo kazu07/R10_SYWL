@@ -3422,3 +3422,8 @@ th {
 .members table tr td:nth-child(2) {
 	font-weight: bold;
   }
+/* make bold adn bigger in span */
+.event_overview span{
+	font-weight: bold;
+	font-size: 1.1em;
+}
