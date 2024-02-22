@@ -3391,16 +3391,45 @@ th {
 	background-color: #f2f2f2;
 }
 
-.members img {
-	width: 30%; /* 幅を150ピクセルに設定 */
-	height: auto; /* 高さを自動調整でアスペクト比を維持 */
-	margin: 0 0; /* 画像を中央に配置 */
-	padding: 0 0;
-}
+
 
 .members td {
 	vertical-align: middle; /* テキストを垂直方向に中央揃え */
   }
+
+.list1.phot1 img {
+	width: 25%; /* 幅を150ピクセルに設定 */
+	height: auto; /* 高さを自動調整でアスペクト比を維持 */
+
+}
+.list1.name{
+	width: 25%;
+}
+
+.list1.title{
+	width: 25%;
+}
+
+.list1.affiliation{
+	width: 25%;
+}
+
+
+.list2.phot img{
+	width: 10%;
+	height: auto;
+}
+
+.list2.name{
+	width: 40%;
+}
+
+
+.list2.affiliation{
+	width: 40%;
+}
+
+
 
 .members table, .members th, .members td {
 	border: none; /* ボーダーを非表示に設定 */
