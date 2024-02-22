@@ -3369,11 +3369,12 @@ ol li {
 		font-size: 1.25em;
 	}
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 600px) {
 	.presenter_name{
 		padding: 0%;
 		font-size: 1.25em;
 	}
+
 }
 
 
@@ -3397,36 +3398,45 @@ th {
 	vertical-align: middle; /* テキストを垂直方向に中央揃え */
   }
 
-.list1.phot1 img {
-	width: 25%; /* 幅を150ピクセルに設定 */
-	height: auto; /* 高さを自動調整でアスペクト比を維持 */
+.list1 .phot{
+	width: 20%;
+}
+
+.list1 .phot1 img {
+	width: 100%; /* 幅を150ピクセルに設定 */
 
 }
-.list1.name{
+.list1 .name{
+	width: 30%;
+	font-size: 100%;
+}
+
+.list1 .title{
 	width: 25%;
+	font-size: 100%;
 }
 
-.list1.title{
+.list1 .affiliation{
 	width: 25%;
+	font-size: 100%;
 }
 
-.list1.affiliation{
-	width: 25%;
+.list2 .phot{
+	width: 20%;
+}
+.list2 .phot img{
+	width: 100%;
 }
 
-
-.list2.phot img{
-	width: 10%;
-	height: auto;
-}
-
-.list2.name{
+.list2 .name{
 	width: 40%;
+	font-size: 100%;
 }
 
 
-.list2.affiliation{
+.list2 .affiliation{
 	width: 40%;
+	font-size: 100%;
 }
 
 
