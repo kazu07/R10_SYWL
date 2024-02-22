@@ -3374,6 +3374,13 @@ ol li {
 		padding: 0%;
 		font-size: 1.25em;
 	}
+	.list1{
+		font-size: 0.7em;
+	}
+	.list2{
+		font-size: 0.8em;
+	}
+	}
 
 }
 
@@ -3402,22 +3409,23 @@ th {
 	width: 20%;
 }
 
-.list1 .phot img {
+.list1 .phot img{
 	width: 100%; /* 幅を150ピクセルに設定 */
 
 }
 .list1 .name{
 	width: 30%;
-	font-size: 100%;
 }
 
 .list1 .title{
 	width: 25%;
-	font-size: 100%;
 }
 
 .list1 .affiliation{
 	width: 25%;
+}
+
+.list1 .name span{
 	font-size: 100%;
 }
 
@@ -3430,15 +3438,14 @@ th {
 
 .list2 .name{
 	width: 40%;
-	font-size: 100%;
 }
-
 
 .list2 .affiliation{
 	width: 40%;
+}
+.list2 span{
 	font-size: 100%;
 }
-
 
 
 .members table, .members th, .members td {
