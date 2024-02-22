@@ -2518,7 +2518,7 @@
 	}
 	div.timetable{
 		/* padding-left: 5%; */
-		width: 60%;
+		width: 100%;
 		margin: 0 auto;
 		/* text-align: center; */
 
@@ -3341,24 +3341,8 @@ ol li {
 .ORGANIZEDBY>p{
 	text-align: center;
 }
-.representative{
-	text-align: center;
-}
-.representative_info{
-	width: 50%;
-	float: left;
-}
-.representative_info> img{
-	width: 150px;
-	height: 200px;
-}
-.members{
-	text-align: center;
-}
-.list2{
-	margin-left: 20%;
-	text-align: left;
-}
+
+
 .list2 span{
 	font-weight: bold;
 }
@@ -3396,10 +3380,11 @@ ol li {
 table {
 	width: 100%;
 	border-collapse: collapse;
-}
+}	
 th, td {
 	border: 1px solid #ddd;
 	padding: 8px;
+	margin: 0 0;
 	text-align: center;
 }
 th {
@@ -3407,8 +3392,10 @@ th {
 }
 
 .members img {
-	width: 150px; /* 幅を150ピクセルに設定 */
+	width: 30%; /* 幅を150ピクセルに設定 */
 	height: auto; /* 高さを自動調整でアスペクト比を維持 */
+	margin: 0 0; /* 画像を中央に配置 */
+	padding: 0 0;
 }
 
 .members td {
