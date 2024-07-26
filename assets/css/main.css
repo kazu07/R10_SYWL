@@ -3460,3 +3460,68 @@ th {
 	font-weight: bold;
 	font-size: 1.1em;
 }
+.event_overview h4{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000;
+}
+
+.scheduleTable {
+	width: 70%;
+	border-collapse: collapse;
+	margin: 25px auto;
+	font-size: 18px;
+	text-align: center;
+}
+.scheduleTable th, .scheduleTable td {
+	padding: 12px 15px;
+}
+.scheduleTable th.headerTime {
+	background-color: #dff0d8;
+}
+.scheduleTable tr {
+	border-bottom: 1px solid #dddddd;
+}
+.scheduleTable tr:nth-of-type(even) {
+	background-color: #fcfcfc;
+}
+.scheduleTable tr.row1 {
+	background-color: #fcfcfc;
+}
+.scheduleTable tr.row2 {
+	background-color: #fcfcfc;
+}
+.scheduleTable tr.row3 {
+	background-color:#fcfcfc;
+}
+.scheduleTable .event-title {
+	font-weight: bold;
+}
+.scheduleTable .event-capacity {
+	color: #616161;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.description div {
+	width: 48%;
+}
+.description figure {
+	margin: 0;
+}
+.description img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.description figcaption {
+	text-align: center;
+	font-size: 14px;
+	color: #888;
+	margin-top: 5px;
+}
